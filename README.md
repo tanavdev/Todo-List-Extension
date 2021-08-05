@@ -13,9 +13,9 @@ Download first stable verison [download](https://drive.google.com/uc?export=down
 
 ## Usage
 
--go download this file from link
--open .crx file it will install the extension
--enjoy 
+- go download this file from link
+- open .crx file it will install the extension
+- enjoy 
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
