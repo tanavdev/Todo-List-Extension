@@ -1,0 +1,137 @@
+
+
+/* Resetting the document */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+user-select: none;
+}
+body{
+background: #212121;
+}
+
+/* Style the header */
+header { 
+  padding: 8px 10px;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  letter-spacing: 2px;
+  margin-bottom: 15px;;
+}
+
+input {
+  margin-right: 0;
+  padding: 10px;
+outline: none;
+background: #121212;
+color: hsla(0, 100%, 100%, 0.88);
+  border: 1px solid hsl(0, 0%, 18.82%);
+border-radius: 5px 0 0 5px;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input:focus{
+border-color: #ffffff44;
+}
+.inp{
+display: flex;
+}
+
+.addBtn {
+  padding: 10px;
+  margin-left:0;
+  border: none;
+  background: #ffffff14;
+  color: #ffffff80;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+border-radius: 0 5px 5px 0;
+}
+
+.addBtn:hover {
+  color: #ffffff;
+}
+
+/* Style the list items */
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+background: #212121;
+color: #ffffff;
+  font-size: 14px;
+  transition: 0.3s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+  background: #ffffff11;
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li.checked {
+  color: #aaa;
+  text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+ul li.checked::before {
+  content: "";
+  position: absolute;
+  border-color: #ffffff70;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+/* Style the trash button */
+.far {
+  position: absolute;
+  right: 0;
+  top: 0;
+color: #ffffff40;
+  transition: background-color 0.1s;
+  padding: 12px 10px 12px 10px;
+}
+
+.far:hover {
+  background-color: red;
+  color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #212121;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+border-radius: 20000px;
+}
