@@ -8,6 +8,9 @@ Simple Chrome Todo List Extension
 
 Download first stable verison [download](https://drive.google.com/uc?export=download&id=1JErdzlPOKFnFEfoB9nbucSG5Oasfx0Uh/).
 
+## Latest version here (all files)
+[Folder](https://drive.google.com/drive/folders/1V0V_hI7WaLcwaZnw9McCLj6TMjwnxtUQ?usp=sharing)
+
 ## Usage
 
 - go download this file from link
