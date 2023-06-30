@@ -6,7 +6,7 @@ Simple Chrome Todo List Extension
 
 ## Installation
 
-Download first stable verison [download](https://drive.google.com/uc?export=download&id=1JErdzlPOKFnFEfoB9nbucSG5Oasfx0Uh/).
+Download first stable verison [download](https://drive.google.com/file/d/1JErdzlPOKFnFEfoB9nbucSG5Oasfx0Uh/view?usp=drive_link).
 
 ## Latest version here (all files)
 [Folder](https://drive.google.com/drive/folders/1V0V_hI7WaLcwaZnw9McCLj6TMjwnxtUQ?usp=sharing)
